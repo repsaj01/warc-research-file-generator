@@ -1,0 +1,17 @@
+{
+  "name": "data-fetching",
+  "version": "1.0.0",
+  "description": "Downloads WARC files from [Common Crawl](https://commoncrawl.org/) and splits them into size-categorised files for the WARC benchmark suite. This allows anyone to reproduce the benchmark without access to the eMarketShield dataset.",
+  "license": "ISC",
+  "author": "",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.8.0",
+    "tsx": "^4.22.3"
+  }
+}
